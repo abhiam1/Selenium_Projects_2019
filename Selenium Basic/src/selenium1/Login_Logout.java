@@ -31,6 +31,8 @@ public class Login_Logout {
 				WebElement logout=driver.findElement(By.xpath("html/body/div[1]/header/nav/div/ul/li/a"));
 				logout.click();
 				
+				driver.close();
+				
 				
 				
 				
